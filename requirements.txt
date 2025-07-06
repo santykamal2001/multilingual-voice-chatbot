@@ -1,0 +1,42 @@
+# Core LLM and LangChain components
+langchain>=0.2.2
+langchain-core
+langchain-community
+langchain-google-genai>=0.0.6
+langchain-text-splitters
+
+# Transformers + Whisper + TTS
+transformers>=4.41.1
+torch>=2.0.0
+sentence-transformers
+whisper
+
+# Audio I/O and Speech
+soundfile
+sounddevice
+scipy  # For wavfile writing used in Whisper recording
+
+# Language Detection and Utilities
+langdetect
+langcodes  # For displaying language names
+numpy
+python-dotenv
+
+#Installation Command
+pip install -r requirements.txt
+
+Configure Environment
+Create a .env file and add:
+
+
+Also install `ffmpeg` (required by Whisper):
+
+```bash
+# macOS
+brew install ffmpeg
+
+# Ubuntu/Debian
+sudo apt install ffmpeg
+
+# Windows
+Download from https://ffmpeg.org/download.html

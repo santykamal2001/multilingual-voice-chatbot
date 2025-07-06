@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.swp
+
+# Virtual environments
+.env/
+venv/
+*.env
+
+# System
+.DS_Store
+
+# Audio output files
+*.wav
+
+# VSCode
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore everything
+*
+
+# Except these files/folders
+!.gitignore
+!demo_chatbot.py
+!requirements.txt
+!README.md
+!knowledge_base.txt

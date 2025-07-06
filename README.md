@@ -2,7 +2,7 @@
 
 A real-time voice chatbot that supports multilingual interaction using **Whisper for voice input**, **Gemini LLM with LangChain for intelligent answers**, **Google Search for real-time info**, and **Facebook MMS-TTS for speech output** — all built in Python.
 
-> Built by [Santhos Kamal A B](https://www.linkedin.com/in/santhoskamal), MS in Computer Science @ Oregon State University.
+> Built by [Santhos Kamal A B](https://www.linkedin.com/in/santhos-kamal-arumugam-balamurugan-6915b41ba/), MS in Computer Science @ Oregon State University.
 
 ---
 

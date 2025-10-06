@@ -2,7 +2,12 @@
 Tests for configuration
 """
 import os
+import sys
 import pytest
+
+# Add the parent directory to the Python path to find config module
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from config import DevelopmentConfig, TestingConfig, ProductionConfig, Config
 
 def test_development_config():

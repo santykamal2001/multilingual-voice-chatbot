@@ -20,16 +20,14 @@ venv/
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore everything
-*
+# Project specific ignores
+voice_chatbot_env/
+chroma_db/
 
-# Except these files/folders
-!.gitignore
-!app.py
-!demo_chatbot.py
-!chatbot.py
-!asr_test.py
-!rag_setup.py
-!requirements.txt
-!README.md
-!knowledge_base.txt
+# Documentation drafts
+*_old.md
+*_new.md
+*_draft.md
+
+# Temporary files
+response_audio_*.wav
